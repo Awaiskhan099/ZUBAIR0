@@ -27,8 +27,8 @@ logo =                                          """
 \x1b[1;97m------------------------\x1b[1;97m------------------------
 \n\x1b[1;92m   ADMIN : \x1b[1;97mANUM   \x1b[1;95mTOOL:\x1b[1;97mFREE     \x1b[1;91mV:\x1b[1;97m1.4.0
 
-         \x1b[1;92m  WHATSAPP:\x1b[1;95m+9231795*****
-          \x1b[1;92m FACEBOOK: \x1b[1;95mANUM MAFAI
+         \x1b[1;92m  WHATSAPP: \x1b[1;95m+92179504***
+          \x1b[1;92m FACEBOOK:  \x1b[1;95mANUM-MAFAI
 \033[1;37m------------------------\033[1;37m------------------------ """
 def ud():
     
